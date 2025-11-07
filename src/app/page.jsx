@@ -4,15 +4,15 @@ import styled from "styled-components";
 import Link from "next/link";
 import Header from "@/components/Header"; // ✅ importa o Header
 
-export default function Home() {
+export default function Inicio() {
   return (
     <>
       <Header /> {/* ✅ adiciona o cabeçalho fixo */}
       <Container>
         <Content>
-          <Title>Página dedicada a fãs de animes! 🎌</Title>
+          <Title>Página dedicada ao dinheiro! 💵</Title>
           <Subtitle>
-            Explore, descubra e compartilhe seus animes favoritos.
+            Explore, descubra e compartilhe Seu dinheiro seu pobre.
           </Subtitle>
 
           {/* <ButtonWrapper>
@@ -32,7 +32,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #5a76a4, #240045);
+  background: linear-gradient(135deg, #0a923eff, #034d24ff);
   color: white;
   text-align: center;
   padding-top: 4rem; /* 🔹 espaço para o header fixo */
